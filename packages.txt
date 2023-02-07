@@ -1,5 +1,6 @@
 build-essential 
 checkinstall 
+cmake
 curl
 curl wget unzip
 gh

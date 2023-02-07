@@ -6,6 +6,10 @@ xargs sudo apt-get install -y <packages.txt
 echo 'installing pyenv'
 curl https://pyenv.run | bash
 pyenv install -v 3.11.1
+pyenv global 3.11.1
+
+echo 'install conan'
+pip install conan
 
 echo 'installing github cli'
 sudo apt install gh
